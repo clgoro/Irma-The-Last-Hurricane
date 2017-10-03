@@ -49,7 +49,8 @@ when "building"
   elsif building.include? "leave"
 
   elsif
-    puts "kicked out the game"
+    require colorize
+    puts "WRONG KEY!!".red
   end
 
   if building == "find out"
